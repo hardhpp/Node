@@ -1,0 +1,600 @@
+0
+题目： AbViewUtil屏幕适配方法
+链接： http://xgfe.github.io/2017/11/30/lwp/AbViewUtil/
+时间： 2017-11-30
+作者： lwp
+关键字： Android 适配 
+简介：抛弃 google 提供的 dip 理论与多套图片与布局方案，采用与 UI 设计师通用的 px 作为标准单位，原理是将 UI 设计师的设计图与当前查看的手机或其他设备的屏幕像素尺寸进行换算，得到缩放比例，在 Activity 中装载布局时将所有布局的 px 尺寸进行缩放后设置给布局，就实现了一套尺寸在不同大小的设备上能够按照合理的比例进行缩放，达到万能适配的目的。
+
+1
+题目： this：我们不一样！
+链接： http://xgfe.github.io/2017/11/16/wangyue/this/
+时间： 2017-11-16
+作者： wangyue
+关键字： this 词法作用域 关键字 
+简介：本文主要介绍了JS中的词法作用域及this的特殊性和一个小彩蛋。
+
+2
+题目： Vue生命周期总结
+链接： http://xgfe.github.io/2017/10/31/lulutia/vue-lifecycle/
+时间： 2017-10-31
+作者： lulutia
+关键字： Vue 
+简介：本文主要总结了vue中涉及到的生命周期，并且通过实际尝试得出了其执行顺序。
+
+3
+题目： 用CSS实现各种图片滤镜效果演示
+链接： http://xgfe.github.io/2017/10/18/liuhongyu/filter/
+时间： 2017-10-18
+作者： liuhongyu
+关键字： CSS3 
+简介：本演示关键使用了几个新型的CSS属性(background-blend-mode, mix-blend-mode, 和 filter)，利用这些属性，我们可以让同一张图片呈现出各种不可思议的神奇效果。
+
+4
+题目： 基于IntersectionObserver的曝光统计测试
+链接： http://xgfe.github.io/2017/10/18/lulutia/IntersectionObserver/
+时间： 2017-10-18
+作者： lulutia
+关键字： data 
+简介：本文主要介绍了IntersectionObserver API，并且就如何将其用于数据埋点给出了尝试。
+
+5
+题目： 关于富文本AttributedString的使用总结
+链接： http://xgfe.github.io/2017/09/22/Sudaxi/attributeStr1/
+时间： 2017-09-22
+作者： Sudaxi
+关键字： iOS 
+简介：本文主要分析了富文本常用的属性设置，平时工作过程经常遇到一些有特殊需求的label、UITextField、UITextView。一般情况下，大家都喜欢直接用多个label来实现其不同的属性，很多人忽略了label本身的富文本属性。本文针对富文本进行了详细的介绍。
+
+6
+题目： 由一个表格需求引发的blog-DOM中的尺寸属性
+链接： http://xgfe.github.io/2017/09/20/Young/DOM-size/
+时间： 2017-09-20
+作者： Young
+关键字： DOM 跨浏览器属性 
+简介：最近数据平台有一个需求，页面滚动的时候，表格的表头悬停在页面顶部，实现的时候遇到了不少问题，也尝试了几种方案，下一篇blog会尝试分享一下，由于涉及到较多的DOM操作，尤其是各种尺寸位置属性，所以对这些尺寸属性的含义做了一些总结。
+
+7
+题目： ConstraintLayout 采用代码方式布局用法简介
+链接： http://xgfe.github.io/2017/09/17/ivanchou/layout-with-constraintlayout-by-programming/
+时间： 2017-09-17
+作者： ivanchou
+关键字： Android 布局 
+简介：关于 ConstraintLayout 的 xml 方式布局的介绍有很多，但是你知道 ConstraintSet 吗？本文对于 ConstraintLayout 采用代码进行布局的方式进行了介绍。
+
+8
+题目： HTML解析和资源加载
+链接： http://xgfe.github.io/2017/09/07/felix/html-parsing-and-resources-load/
+时间： 2017-09-07
+作者： felix
+关键字： html 
+简介：学习浏览器的内部工作原理将有助于您作出更明智的决策，并理解那些最佳开发实践的个中缘由。本文主要针对WebKit内核的浏览器。
+
+9
+题目： 如何将html保存成图片
+链接： http://xgfe.github.io/2017/09/07/huanglifen/html2image/
+时间： 2017-09-07
+作者： huanglifen
+关键字： html2canvas canvas2image html2image 
+简介：如何将HTML保存成高清图片？本文带你一探究竟。
+
+10
+题目： ES6项目构建
+链接： http://xgfe.github.io/2017/08/28/DaisyXL/ES6/
+时间： 2017-08-28
+作者： DaisyXL
+关键字： javascript ES6 
+简介：本文主要结合自己学习ES6的过程，说明了如何从零开始搭建一个ES6前端框架，并在大家都很关注的彩票业务中进行应用。
+
+11
+题目： 基于React-Native及Redux的Immutable.js引入
+链接： http://xgfe.github.io/2017/07/10/lulutia/immutable-RN-Redux/
+时间： 2017-07-10
+作者： lulutia
+关键字： React Native React optimization 
+简介：本文主要介绍了如何对RN项目进行render count的优化，着重介绍了Immutable.js及其如何与Redux和React Native融合。
+
+12
+题目： React Native 学习系列二
+链接： http://xgfe.github.io/2017/06/28/lulutia/reactnative02/
+时间： 2017-06-28
+作者： lulutia
+关键字： React Native 
+简介：本文是React Native学习系列的第二篇，主要介绍了JSX、生命周期、以ScrollView为例讲解了官方组件、以BackHandler为例讲解了官方API。
+
+13
+题目： Looper和Handler和HandlerThread
+链接： http://xgfe.github.io/2017/06/26/zero/Looper和Handler和HandlerThread/
+时间： 2017-06-26
+作者： zero
+关键字： Android 
+简介：本文主要分析了Looper，Handler和HandlerThread的主要源码部分。
+
+14
+题目： OKIO源码分析
+链接： http://xgfe.github.io/2017/06/26/zero/OKIO源码分析/
+时间： 2017-06-26
+作者： zero
+关键字： java IO 
+简介：本文主要分析了OKIO源码中用到的Timeout，Buffer和设计模式。
+
+15
+题目： React Native 学习系列一
+链接： http://xgfe.github.io/2017/06/22/lulutia/reactnative01/
+时间： 2017-06-22
+作者： lulutia
+关键字： React Native 
+简介：本文是React Native学习系列的第一篇，主要介绍了React Native产生的背景、环境搭建、文件结构及如何使用Flex布局进行样式搭建。
+
+16
+题目： SDWebImage源码解读
+链接： http://xgfe.github.io/2017/05/27/shsoul/SDWebImage源码解读/
+时间： 2017-05-27
+作者： shsoul
+关键字： iOS SDWebImage 
+简介：SDWebImage库是iOS应用中常用的一个图片处理库，包括图片的下载和缓存等。非常好用。本文对其源码做了分析和总结。
+
+17
+题目： 【译】用JavaScript解释JavaScript虚拟机-内联缓存（inline caches）
+链接： http://xgfe.github.io/2017/05/24/LexHuang/Inline-Caches/
+时间： 2017-05-24
+作者： LexHuang
+关键字： JavaScript V8 
+简介：本文来自Vyacheslav Egorov的Explaining JavaScript VMs in JavaScript - Inline Caches，其中的术语、代码请以原文为准。
+
+18
+题目： cocos2d-Js 基础入门
+链接： http://xgfe.github.io/2017/05/15/jakii/cocos2d-x introduction/
+时间： 2017-05-15
+作者： jakii
+关键字： javascript cocos2d-x 
+简介：cocos2d-x是一个广泛流行的2D跨平台游戏引擎。采用c++作为开发语言。而cocos2d-Js是cocos2d-x采用脚本绑定技术实现的采用JavaScript语言作为开发语言的版本。本博客主要内容分为三部分：
+
+19
+题目： 理解Virtual DOM
+链接： http://xgfe.github.io/2017/05/04/y8n/understand-virtual-dom/
+时间： 2017-05-04
+作者： y8n
+关键字： react virtual dom 
+简介：使用过React的同学对于Virtual DOM并不陌生，作为React的重要核心概念，Virtual DOM凭借其高效的diff算法，让我们不用关心应用的性能问题，毫无顾忌地修改各种数据状态。在实际的开发中，我们并不需要关注Virtual DOM在一个框架中是如何运行的，但是理解Virtual DOM的实现原理却是非常有必要的，同时也有助于我们更加深入React。
+
+20
+题目： web worker详解
+链接： http://xgfe.github.io/2017/05/03/LexHuang/web-worker/
+时间： 2017-05-03
+作者： LexHuang
+关键字： javascript web api 
+简介：Web Workers 是一种不在页面线程而是在后台线程中执行脚本的技术。Web Workers 的优点在于可以将计算密集型和I/O密集型的操作放在一个单独的后台线程中执行，进而使得主线程（通常是UI线程）能够不被阻塞，也不会被减缓。本博客主要内容分为七部分：
+
+21
+题目： 远程调用框架Thrift分享
+链接： http://xgfe.github.io/2017/05/03/zhouxiong/Thrift/
+时间： 2017-05-03
+作者： zhouxiong
+关键字： Thrift NodeJS 
+简介：Thrift是一个跨语言的远程调用框架(RPC)，它允许你根据IDL规则定义数据类型和服务接口，然后通过Thrift编译器生成跨语言的client和server端，目前支持市面上所有的主流语言。
+
+22
+题目： 如何实现一套iOS-router
+链接： http://xgfe.github.io/2017/04/21/shsoul/router/
+时间： 2017-04-21
+作者： shsoul
+关键字： iOS router 
+简介：本文主要是提供一套iOS-router的解决方案。
+
+23
+题目： iOS Crash栈的捕获和分析
+链接： http://xgfe.github.io/2017/03/23/lrdcq/ios-crash-catch-and-analyze/
+时间： 2017-03-23
+作者： lrdcq
+关键字： iOS objective-c hopper 
+简介：在iOS应用开发和线上运行的过程中，我们总会被反馈到各种各样的崩溃。很多崩溃通过case的描述，就能很快的重现并得到修复，但是更多的崩溃也许这一辈子就发生这么一次，也许我们永远不知道它什么时候再会出现。同时，就算我们捕获到一个Crash栈，由于版本环境等种种原因，或者发生崩溃的代码我们就无法得到它详细的源码，我们往往会对着一片全是程序指令偏移量的Crash栈一脸蒙蔽。基于以上事实，我们需要从Crash栈的捕获和分析这两个角度进行深入的了解。本博客主要内容分为两部分：
+
+24
+题目： Electron开发跨平台桌面应用
+链接： http://xgfe.github.io/2017/03/16/TinySymphony/electronic-apps/
+时间： 2017-03-16
+作者： TinySymphony
+关键字： electron atom 
+简介：在国内All in mobile的风气下谈论桌面客户端开发似乎是个很非主流的行为，但是作为JavaScript在桌面端伸出的利爪，Electron不仅仅是快速开发跨平台桌面客户端的一个技术选型，也有着其独特的象征意义~本文主要介绍Electron的应用结构、开发方式以及优缺点。在重温Electron开发的过程中写了个山寨的Mac版网易云音乐，这是demo地址
+
+25
+题目： ActivityRouter
+链接： http://xgfe.github.io/2017/03/03/wangweitao/AliActivityRouter/
+时间： 2017-03-03
+作者： wangweitao
+关键字： Andorid Activity Router 
+简介：android通过在intent中指定目标类名和参数实现界面之间的跳转。这种写法在activity数量少、跳转简单、开发人员较少时效果好。 如果遇到activity数量较多、跳转复杂、多人协作开发、长期的修改的情况，则可以通过activityRouter来解耦合、管理跳转逻辑等。
+
+26
+题目： Vue2.0+Vue-resource+Express搭建简书网站服务端
+链接： http://xgfe.github.io/2017/03/02/zhouxiong/Vue2.0+Vue-resource+Express-Server/
+时间： 2017-03-02
+作者： zhouxiong
+关键字： Vue2.0 Vue-resource Express 
+简介：继上一篇文章Vue2.0+Vue-router2.0+Vuex2.0搭建简书，该文章主要讲述简书网站的前端搭建过程。本篇文章将重点讲述简书网站的服务端搭建，服务端主要通过Express启动一个本地server处理请求，将数据保存至数据库中。
+
+27
+题目： RxJava 谨慎串联Observable
+链接： http://xgfe.github.io/2017/02/24/zhiqin/RxJava_zip_Observable_carefully/
+时间： 2017-02-24
+作者： zhiqin
+关键字： Android RxJava 
+简介：RxJava提供了flatMap和switchMap两个操作符用于让我们进行Observable的串联. 但如果不谨慎使用的话, 经常会造成很多意料之外的问题
+
+28
+题目： IOS confused attribute Part 1
+链接： http://xgfe.github.io/2017/02/23/cocoawang/IOS-confused-attribute/
+时间： 2017-02-23
+作者： Cocoa
+关键字： ios 
+简介：本文对IOS中易混淆的两组属性：frame和bounds、id和instancetype，结合实例做了简单分析总结，学习区分和正确使用。
+
+29
+题目： 我是如何实现IOS原生弹窗效果的
+链接： http://xgfe.github.io/2017/02/17/shsoul/我是如何实现IOS原生弹窗效果的/
+时间： 2017-02-17
+作者： shsoul
+关键字： IOS UI 
+简介：本文主要是讲解如何封装一个具有原生UI效果的弹窗的。
+
+30
+题目： Coordinators探险——Fragment和ViewGroup的抉择
+链接： http://xgfe.github.io/2017/02/08/zhiqin/Coordinators/
+时间： 2017-02-08
+作者： zhiqin
+关键字： Android Coordinators Fragment MVWhatever 
+简介：2个月前，square开源了Coordinators。这个项目的作用在主页的第一句话写得很清楚：Simple lifecycle for your MVWhatever on Android. No kidding.讲真，简化Android开发中MV**模式里的生命周期。
+
+31
+题目： React Native ART介绍
+链接： http://xgfe.github.io/2017/02/07/TinySymphony/React-Native-ART介绍/
+时间： 2017-02-07
+作者： TinySymphony
+关键字： React Native ReactART 
+简介：react-art是reactjs团队基于art（一个兼容各个浏览器SVG绘制的API封装）开发的模块，让react开发者能使用jsx语法绘制svg.react native团队分别在0.10.0和0.18.0也添加了iOS和Android平台对react-art的支持，RN在本文写稿时已经发版至0.41.0，官网文档至今对其只字未提。本文旨在介绍安静躺在react-native/Libraries/里的ART，并展示一些实践结果。
+
+32
+题目： The Next Step for Reactive Android Programming（译文）
+链接： http://xgfe.github.io/2017/02/04/wangweitao/RxJava_Migration/
+时间： 2017-02-04
+作者： wangweitao
+关键字： andorid rxjava 
+简介：“The Next Step for Reactive Android Programming”一文主要讲述在已有的android项目中将rxjava1升级到rxjava2的一些优缺点和可能遇到的困难。
+
+33
+题目： Git常用命令和基础简介
+链接： http://xgfe.github.io/2017/01/22/penglu/git-01/
+时间： 2017-01-22
+作者： penglu
+关键字： git 
+简介：
+
+34
+题目： ImageView的scaleType属性效果
+链接： http://xgfe.github.io/2017/01/13/wangweitao/imageView_Fit/
+时间： 2017-01-13
+作者： wangweitao
+关键字： Andorid ImageView ScaleType 
+简介：android中的imageView在图片大小不完全一致时会进行相应的缩放或者裁剪。scaleType属性决定缩放裁剪的效果，这里总结了下在各种情况下的缩放裁剪效果。
+
+35
+题目： Vue2.0+Vue-router2.0+Vuex2.0搭建简书
+链接： http://xgfe.github.io/2016/12/22/zhouxiong/Vue2.0+Vue-router2.0+Vuex2.0/
+时间： 2016-12-22
+作者： zhouxiong
+关键字： Vue2.0 Vue-router2.0 Vuex2.0 
+简介：随着Vue2.0的发布，Vue系列生态Vue-router、Vuex等也都升级到了2.0版本，但是关于Vue2.0版本的例子还比较少，而且由于Vue2.0相比Vue1.0版本改动较大，其中也有不少的坑，这里就从零开始利用Vue2.0系列搭建简书网站雏形。
+
+36
+题目： 初识docker
+链接： http://xgfe.github.io/2016/12/21/scliuyang/docker1/
+时间： 2016-12-21
+作者： scliuyang
+关键字： docker 
+简介：docker经过这么几年的发展，到如今更是火热到即使你没吃过猪也见过猪跑的地步,本节会给大家介绍docker的一些含义，让大家了解docker
+
+37
+题目： js新的包管理工具yarn
+链接： http://xgfe.github.io/2016/11/30/scliuyang/yarn/
+时间： 2016-11-30
+作者： scliuyang
+关键字： yarn 
+简介：2016年10月11日，facebook 公开了新的 javascript 包管理工具 yarn, 用来替代目前被广泛使用的 npm (nodejs 自带的包管理工具)，本文将介绍yarn工具带来的优点和使用入门。
+
+38
+题目： Web安全技术
+链接： http://xgfe.github.io/2016/11/28/felix/web-secure-skill/
+时间： 2016-11-28
+作者： felix
+关键字： XSS CSRF 
+简介：
+
+39
+题目： Vue实战(一) -- Vue基础总结
+链接： http://xgfe.github.io/2016/11/09/zhouxiong/vue-in-action-vue-basis/
+时间： 2016-11-09
+作者： zhouxiong
+关键字： Vue.js 
+简介：Vue作为一个前端轻量级的MVVM框架有其独到之处,本文主要针对Vue1.0版本的官方文档进行梳理总结,主要包括以下几个方面:1.数据绑定2.指令3.组件4.事件5.过滤器
+
+40
+题目： Vue实战（二）—— 在项目中的实践
+链接： http://xgfe.github.io/2016/11/08/y8n/vue-in-action-vue-project/
+时间： 2016-11-08
+作者： y8n
+关键字： Vue 
+简介：在上一篇中介绍了Vue的基本用法，同时我们也明白了Vue在webApp开发中提供的巨大便利性，那么，如何将Vue应用在项目中呢？这就是本篇文章我们将要讨论的内容
+
+41
+题目： 如何进行高效的提问
+链接： http://xgfe.github.io/2016/11/02/scliuyang/efficientQuestion/
+时间： 2016-11-02
+作者： scliuyang
+关键字： 提问 高效的提问 
+简介：高效提问是有效沟通的第一步，在工作中经常碰到因为低效��问或无效提问浪费大量的时间，增加沟通成本，本文希望能提高大家提问水平，给大家一点启发。
+
+42
+题目： 跟underscore.js学如何打造前端类库
+链接： http://xgfe.github.io/2016/10/25/weger/Start-your-own-JavaScript-library-baseon-underscorejs/
+时间： 2016-10-25
+作者： weger
+关键字： library underscore.js 
+简介：在我们开发项目的时候，无论项目规模大小，在所难免会写一些工具型函数来解决一些问题，随着项目开发和维护的时间越来越长，这些工具型函数会越来越多，同时还会穿插在各个项目的各模块或者文件当中，使得项目变的越来越臃肿，也不方便复用和维护。这时我们就会提取出一个类似的工具库或者基础库作为项目基础依赖，在项目中重复利用起来，比如拿AngularJS这个框架来说，在他的全局作用域(angular)下就挂载很多类似angular.foreach这样的函数。为了这样的工具库或类库更易扩展、易维护、易复用和更加稳定，我们就需要更好的去管理，参考前端业界，正好underscore.js作为这样的一个工具型”类库”在各大项目而被广泛使用，那么我们就基于underscore.js，站在巨人的肩上，看看巨人怎么来打造前端类库的。
+
+43
+题目： AngularJS的服务
+链接： http://xgfe.github.io/2016/09/08/zhouxiong/Service-in-AngularJS/
+时间： 2016-09-08
+作者： zhouxiong
+关键字： AngularJS 依赖注入 Service 
+简介：在AngularJS中有许多内置的标准化服务组件，同时我们也可以自定义服务组件。在AngularJS中所有Service服务组件都是通过依赖注入进行管理的。本篇文章将通过以下几点进行讲解。1.依赖注入2.AngularJS中的内置服务3.自定义AngularJS服务
+
+44
+题目： React-Native 触摸与动画
+链接： http://xgfe.github.io/2016/08/21/lulutia/react-native-touch-animation/
+时间： 2016-08-21
+作者： lulutia
+关键字： React Native touches animation 
+简介：在移动应用开发中，触摸和动画是不可忽视的两个方面。React-Native针对手势处理，提供了几组API，为基本的点击手势和复杂的滑动等都提供了相应的解决方案。  相比web端的手势，React-Native应用中的手势要复杂很多。在初次进行React-Native的组件Picker封装时，需要涉及到模拟原生iOS滚轮的行为实现，针对这部分需要涉及到React-Native中的触摸实现，此作为选题的初衷。如果刚刚接触要搭建环境balabala，可以参考基本环境搭建。
+
+45
+题目： Angular指令中的属性
+链接： http://xgfe.github.io/2016/08/12/y8n/angular-directive-attributes/
+时间： 2016-08-12
+作者： y8n
+关键字： Angular 指令 Directive 
+简介：下面通过一些简单的示例说明Angular指令中属性的值的获取方式以及函数的使用。
+
+46
+题目： 编写高质量JS代码
+链接： http://xgfe.github.io/2016/08/11/penglu/effective-javascript/
+时间： 2016-08-11
+作者： penglu
+关键字： javascript 读书笔记 
+简介：本文主要是阅读Effective Javascript书籍的读书笔记。
+
+47
+题目： Paper源码分析（Android上的`NoSql`）
+链接： http://xgfe.github.io/2016/07/13/zhiqin/PaperSourceCode/
+时间： 2016-07-13
+作者： zhiqin
+关键字： Android NoSql Paper 
+简介：什么是NoSql？从表面上可以理解成，存储在数据库中的并不是一条条的数据，而是一个个Map对象。NoSql在Android上应用得不多，Paper是目前刚出现的性能比较好而且比较小巧的一款。翻翻源代码，分析一下他的原理
+
+48
+题目： E2E测试之protractor
+链接： http://xgfe.github.io/2016/07/01/y8n/e2e-test-protractor/
+时间： 2016-07-01
+作者： y8n
+关键字： 测试 E2E protractor 
+简介：e2e或者端到端（end-to-end）或者UI测试是一种测试方法，它用来测试一个应用从头到尾的流程是否和设计时候所想的一样。简而言之，它从一个用户的角度出发，认为整个系统都是一个黑箱，只有UI会暴露给用户。  在我们的实际项目中碰到过多次测试不完善而出现的问题，很大程度上是因为人工测试的时候，很多功能并不能很好的覆盖到，尤其是当出现大范围代码重构的时候，一旦功能测不到，发布到线上就是定时炸弹💣所以自动化的测试就是我们当前的一大痛点，@HeOH同学曾经分享过关于Angular单元测试的内容，那么我们就来聊一聊Angular的E2E测试。
+
+49
+题目： 内存泄露分析
+链接： http://xgfe.github.io/2016/05/16/scliuyang/ChromeDevTools4/
+时间： 2016-05-16
+作者： scliuyang
+关键字： Chrome Developers Tools Debug DevTools 
+简介：通过Devtools判断页面的内存泄露
+
+50
+题目： 分析timeline提升页面性能
+链接： http://xgfe.github.io/2016/05/16/scliuyang/ChromeDevTools3/
+时间： 2016-05-16
+作者： scliuyang
+关键字： Chrome Developers Tools Debug DevTools 
+简介：学习怎样通过DevTools诊断由于强制布局引起的性能问题
+
+51
+题目： Chrome Developers Tools调试篇
+链接： http://xgfe.github.io/2016/05/16/scliuyang/ChromeDevTools2/
+时间： 2016-05-16
+作者： scliuyang
+关键字： Chrome Developers Tools Debug DevTools 
+简介：带领大家进入一个不一样的DEBUG世界
+
+52
+题目： Chrome Developers Tools基础篇
+链接： http://xgfe.github.io/2016/05/16/scliuyang/ChromeDevTools1/
+时间： 2016-05-16
+作者： scliuyang
+关键字： Chrome Developers Tools Debug DevTools 
+简介：Chrome开发工具(简称DevTools),是一组内置Google Chrome网页编辑和调试工具。DevTools提供web开发人员进入浏览器和web应用程序代码内部深处。使用DevTools有效追踪布局问题,设置JavaScript断点,获得代码优化的建议。
+
+53
+题目： 趣味设计模式
+链接： http://xgfe.github.io/2016/05/09/felix/funny-design-pattern/
+时间： 2016-05-09
+作者： felix
+关键字： design pattern 
+简介：趣味设计模式PPT“设计模式”是在面向对象软件设计过程中针对特定问题的简洁而优雅的解决方案。通俗一点说,设计模式是在某种场合下对某个问题的一种解决方案。如果再通俗一点说,设 计模式就是给面向对象软件开发中的一些好的设计取个名字。23种设计模式来源于GoF总结常见的设计模式录入《设计模式:可复用面向对象软件的基础》。设想有一个电子爱好者,虽然他没有经过正规的培训,但是却日积月累地设计并制 造出许多有用的电子设备:业余无线电、盖革计数器、报警器等。有一天这个爱好者决 定重新回到学校去攻读电子学学位,来让自己的才能得到真实的认可。随着课程的展开, 这个爱好者突然发现课程内容都似曾相识。似曾相识的并不是术语或者表述的方式,而 是背后的概念。这个爱好者不断学到一些名称和原理,虽然这些名称和原理原来他不知 道,但事实上他多年来一直都在使用。整个过程只不过是一个接一个的顿悟。《设计模式沉思录》
+
+54
+题目： 鲜活的图表
+链接： http://xgfe.github.io/2016/04/20/chenwubai/vividCharts/
+时间： 2016-04-20
+作者： chenwubai
+关键字： 数据可视化 
+简介：在之前的“基于D3.js的***的实现”系列中，提到了如何用D3.js去实现基本的六种图表（柱状图、折线图、饼图、雷达图、散点图和气泡图）。虽然知道了如何去实现这样的图表，但到底什么时候去使用图表，如何���使用图表来展现数据，这些都还没有提及。所以在这篇文章里，我又要开始巴拉巴拉讲一堆了。
+
+55
+题目： postcss系列-初识postcss
+链接： http://xgfe.github.io/2016/01/05/scliuyang/postcss-one/
+时间： 2016-01-05
+作者： scliuyang
+关键字： postcss 
+简介：postcss系列一，初步认识postcss，了解postcss工具的强大之处
+
+56
+题目： 后台SSH2框架分享
+链接： http://xgfe.github.io/2015/12/24/zhouxiong/server-ssh2/
+时间： 2015-12-24
+作者： zhouxiong
+关键字： java SSH2 
+简介：作为一个前端开发人员，了解一门服务器端语言，对于提高自己的知识广度是很有帮助的。本文简单介绍服务器端javaEE的SSH2框架相关知识，主要有以下几点1.SSH2是什么？2.MVC3.服务器端代码请求过程4.服务器端代码逻辑结构5.具体项目搭建过程
+
+57
+题目： 指令编译过程中link与controller函数执行顺序
+链接： http://xgfe.github.io/2015/12/22/penglu/link-controller/
+时间： 2015-12-22
+作者： penglu
+关键字： angularjs link controller 编译顺序 
+简介：本文主要介绍指令使用过程中，编译阶段link函数与controller函数的执行顺序相关知识。
+
+58
+题目： AngularJs 指令基础
+链接： http://xgfe.github.io/2015/12/22/penglu/Angular-Directive-01/
+时间： 2015-12-22
+作者： penglu
+关键字： angularjs directive 
+简介：当在coding的过程中，会遇到一些功能被重复使用的情况，这时候为了更好的实现代码复用，我们需要编写自己的Angular指令。本文主要从Why、How和What三个方面对Angular指令基础定义进行讲解。下面进行详细介绍。
+
+59
+题目： React入门
+链接： http://xgfe.github.io/2015/12/21/felix/react-first-kiss/
+时间： 2015-12-21
+作者： felix
+关键字： react 
+简介：React入门分享PPT下载React 起源于 Facebook 的内部项目，因为该公司对市场上所有 JavaScript MVC 框架，都不满意，就决定自己写一套，用来架设Instagram 的网站。由于 React 的设计思想极其独特，属于革命性创新，性能出众，代码逻辑却非常简单。React的虚拟DOM的特性使得他可以多端渲染，甚至直接渲染到Canvas。
+
+60
+题目： Angular的自动化测试
+链接： http://xgfe.github.io/2015/12/17/HeOH/AngularJS的自动化测试/
+时间： 2015-12-17
+作者： HeOH
+关键字： angular karma jasmine 测试 单元测试 端到端测试 
+简介：当Angular项目的规模到达一定的程度，就需要进行测试工作了。本文着重介绍关于ng的测试部分，主要包括以下三个方面：下面各部分进行详细介绍。
+
+61
+题目： checkbox in angularJs
+链接： http://xgfe.github.io/2015/12/06/penglu/checkbox-in-angularJs/
+时间： 2015-12-06
+作者： penglu
+关键字： angularjs checkbox 
+简介：用了两次checkbox,第一次使用的时候遇到了一些问题，本来要做总结的，结果一拖再拖，导致今天用的时候又生疏了，所以今天就做一下总结。
+
+62
+题目： 学习如何使用AngularJs 1.3中的新form表单特性
+链接： http://xgfe.github.io/2015/11/30/felix/forms-in-angularjs-1.3/
+时间： 2015-11-30
+作者： felix
+关键字： angularjs form 
+简介：长文慎入译自：Taming Forms in AngularJS 1.3在AngularJs 1.3中form表单得到了大幅度的优化，解决了大量的与浏览器原生HTML5验证的bug，同时增加了诸如“验证器管道”（validators pipeline）和“异步验证”（asynchronous validations）等新特性。辅以“嵌套表单”（nested form）和新的消息提示模块（ngMessages），1.3中的form表单变得空前强大。
+
+63
+题目： 基于D3.js的雷达图的实现
+链接： http://xgfe.github.io/2015/11/24/chenwubai/d3-basicCharts-radar/
+时间： 2015-11-24
+作者： chenwubai
+关键字： 数据可视化 svg D3.js 
+简介：基本图表一共有六种，分别是柱状图、折线��、散点图、气泡图、饼图和雷达图。前面五种图形都已经介绍过如何实现了，今天我们一起来看看最后的雷达图。
+
+64
+题目： 基于D3.js的饼图的实现
+链接： http://xgfe.github.io/2015/11/24/chenwubai/d3-basicCharts-pie/
+时间： 2015-11-24
+作者： chenwubai
+关键字： 数据可视化 svg D3.js 
+简介：在前面的几篇文章里，我已经介绍过怎样用柱状图、折线图、散点图和气泡图这四种基本图表。这四种图表都是有坐标轴的，现在来说一种没有坐标轴的图表——饼图。
+
+65
+题目： 基于D3.js的散点图和气泡图的实现
+链接： http://xgfe.github.io/2015/11/24/chenwubai/d3-basicCharts-scatter-bubble/
+时间： 2015-11-24
+作者： chenwubai
+关键字： 数据可视化 svg D3.js 
+简介：在之前的《基于D3.js的柱状图的实现》和《基于D3.js的折线图的实现》中，已经介绍过柱状图和折线图了。今天来说说非常相似的两种图表——散点图和气泡图。
+
+66
+题目： 基于D3.js的折线图的实现
+链接： http://xgfe.github.io/2015/11/23/chenwubai/d3-basicCharts-line/
+时间： 2015-11-23
+作者： chenwubai
+关键字： 数据可视化 svg D3.js 
+简介：在《基于D3.js的柱状图的实现》中已经介绍过如何用D3.js来实现一个简单的柱状图了。现在就让这道新世界的大门再打开一些，我们来用D3.js来实现折线图。
+
+67
+题目： 基于D3.js的柱状图的实现
+链接： http://xgfe.github.io/2015/11/23/chenwubai/d3-basicCharts-bar/
+时间： 2015-11-23
+作者： chenwubai
+关键字： 数据可视化 svg D3.js 
+简介：数据可视化一直是前端领域中不容忽略的一块领域。简而言之，数据可视���就是借助图形化的手段把生硬的数据生动化，以此来展示出数据想要表达的信息。而图表是大家最最最通常的一种数据可视化手段，可全靠自己纯手动编写各种图表实在是让人头疼，各种计算各种烦。没事儿，现在就为大家打开一道新世界的大门——用D3.js来实现柱状图。
+
+68
+题目： SVG进阶教程
+链接： http://xgfe.github.io/2015/11/17/scliuyang/svg-advanced/
+时间： 2015-11-17
+作者： scliuyang
+关键字： svg 进阶 
+简介：本文在大概了解SVG的基础上，深入的讲解一些SVG常用的知识，主要有以下几点
+
+69
+题目： git commit hook
+链接： http://xgfe.github.io/2015/10/28/felix/git-commit-hook/
+时间： 2015-10-28
+作者： felix
+关键字： git git hook 代码规范 
+简介：xgfe团队已经定制了自己的html的编码规范，对应的html规范检查工具xg-htmlhint。以后也会有对应的js, css, sass编码规范和检查工具诞生，但是规范的制定和执行是两码事儿，而且往往存在很大的不对等。虽然辅以强大的编辑器插件我们可以做到在文件保存时做规范检查和提醒，但这样一来可能会打断思路，再者多多少少可以被轻易绕过。所以本文介绍引入git commit hook，在本地Commit代码之前先进行代码规范检查，通过后才能进行Commit。
+
+70
+题目： Vim使用xg-htmlhint配置教程
+链接： http://xgfe.github.io/2015/10/21/HeOH/xg-htmlhint-for-vim/
+时间： 2015-10-21
+作者： HeOH
+关键字： vim htmlhint 
+简介：在《HTML代码检查工具实践》中对xg-htmlhint进行了详细的介绍。本文主要针对vim使用xg-htmlhint工具需要的配置安装进行了说明。
+
+71
+题目： Sublime Text 3使用xg-htmlhint配置教程
+链接： http://xgfe.github.io/2015/10/20/chenwubai/xg-htmlhint-config-in-Sublime-Text-3/
+时间： 2015-10-20
+作者： chenwubai
+关键字： htmlhint 
+简介：在《HTML代码检查工具实践》中对xg-htmlhint进行了详细的介绍。本文主要针对Sublime Text 3使用xg-htmlhint工具需要的配置安装进行了说明。该教程只针对Sublime Text 3，在Sublime Text 2中可能会安装出错。
+
+72
+题目： HTML代码检查工具实践
+链接： http://xgfe.github.io/2015/10/08/y8n/html-hinting-tool/
+时间： 2015-10-08
+作者： y8n
+关键字： htmlhint 代码规范 html 
+简介：作为一只页面仔，写出一手漂（niu）亮（bi）的代码一直是我们不懈的追求。HTML作为前端开发入门级的语言，把它熟练掌握是基本功，不光如此，还需要在一个团队里保持良好的编码规范，使得代码易被理解和被维护。就现阶段来看，我们还是没有形成统一的代码风格，写��的东西五花八门，等项目做大之后，其中的诸多问题必然会暴露出来。所以，为了能省（shao）时（jia）省（dian）力（ban），我们需要制定一套符合现有团队的规范、更需要检查代码是否符合规范的自动化工具。
+
+73
+题目： 使用说明书
+链接： http://xgfe.github.io/2015/09/24/felix/blog-instructions/
+时间： 2015-09-24
+作者： felix
+关键字： 
+简介：博客系统基于Hexo搭建，使用主题next.mist。采用多说评论系统，站内搜索使用swiftype。基本环境Hexo获取项目代码写博客  博文路径  ，直接复制已有文章md文件，修改头部信息即可。提交代码，通知相关人员审核发布头部“—”行以前的部分为博文信息定义部分感谢xgfe团队的所有成员的支持和贡献，感谢小伟哥的耐心指导和付出。即刻起航，扬帆远行。
+
+74
+题目： Hello World
+链接： http://xgfe.github.io/2015/09/23/hello-world/
+时间： 2015-09-23
+作者： 
+关键字： 
+简介：Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.More info: WritingMore info: ServerMore info: GeneratingMore info: Deployment
+
